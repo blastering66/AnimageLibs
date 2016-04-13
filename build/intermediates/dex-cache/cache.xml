@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/AnimageLibs/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7e528d0dd6a245e2688c4a413a546d6a67664059">
+        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/AnimageLibs-library-unspecified_e95259fc9470e580203ee88b4876ba1c9aab6fb5.jar" />
+    </item>
+    <item
         jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
@@ -9,18 +16,11 @@
         <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_6b20eb30bccb4546977eea0dbd1c03fbb7f369d2.jar" />
     </item>
     <item
-        jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jar="/Users/macbook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_d8c5eeffe3caa4018b96419bba35c6b9c891fca2.jar" />
-    </item>
-    <item
-        jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/AnimageLibs/library/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="512b5fff9c813e019f7fab3d518925be55716a24">
-        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/AnimageLibs-library-unspecified_e95259fc9470e580203ee88b4876ba1c9aab6fb5.jar" />
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_d9449c3820a87fbbaacb0bebde32362d5b9f6415.jar" />
     </item>
     <item
         jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
@@ -37,18 +37,18 @@
         <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_c96453b57c180c2079fb7c7ef3a40f68ceae3605.jar" />
     </item>
     <item
-        jar="/Users/macbook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_d9449c3820a87fbbaacb0bebde32362d5b9f6415.jar" />
-    </item>
-    <item
         jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
         <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_f3292da735f9c114e3520d3ef6fdd73c9a67e617.jar" />
+    </item>
+    <item
+        jar="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/macbook/Desktop/Android Studio Repo Workspace/AnimageLibs/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_d8c5eeffe3caa4018b96419bba35c6b9c891fca2.jar" />
     </item>
 
 </items>

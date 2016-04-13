@@ -31,7 +31,7 @@ publish {
     userOrg = 'blastering66'
     groupId = 'id.blastering99.htmlloader'
     artifactId = 'HtmlLoader'
-    version = '0.1.0'
+    version = '0.1.1'
     description = 'Loader that extends From AlertDialog using Html file.'
     website = 'https://github.com/blastering66/AnimageLibs'
     issueTracker = "https://github.com/blastering66/AnimageLibs/issues"
