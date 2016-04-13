@@ -5,16 +5,18 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.webkit.WebView;
 import id.blastering.mylibrary.R;
+import id.blastering99.htmlloader.Connection_Checker;
+
 /**
  * Created by macbook on 4/12/16.
  */
 public class CustomProgressDialog extends AlertDialog {
-    public static int SQUARE_TO_CIRCLE= 1;
-    public static int BIGSQUARE_TO_CIRCLE= 2;
-    public static int CIRCLELININGUP_TO_CIRCLE= 3;
-    public static int SPINNING_CIRCLE= 4;
-    public static int SPINNING_LINE= 5;
-    public static int SPINNING_SQUARE= 6;
+    public static final int SQUARE_TO_CIRCLE= 1;
+    public static final int BIGSQUARE_TO_CIRCLE= 2;
+    public static final int CIRCLELININGUP_TO_CIRCLE= 3;
+    public static final int SPINNING_CIRCLE= 4;
+    public static final int SPINNING_LINE= 5;
+    public static final int SPINNING_SQUARE= 6;
     private int selectedLoader;
 
     public CustomProgressDialog(Context context) {
@@ -38,22 +40,22 @@ public class CustomProgressDialog extends AlertDialog {
         webView.setBackgroundColor(0x00000000);
 
         switch (selectedLoader){
-            case 1:
+            case SQUARE_TO_CIRCLE:
                 webView.loadUrl("file:///android_res/raw/preload_twosquare_to_circle.html");
                 break;
-            case 2:
+            case BIGSQUARE_TO_CIRCLE:
                 webView.loadUrl("file:///android_res/raw/preload_bigsquare_to_circle.html");
                 break;
-            case 3:
+            case CIRCLELININGUP_TO_CIRCLE:
                 webView.loadUrl("file:///android_res/raw/preload_circle_lining_jumping.html");
                 break;
-            case 4:
+            case SPINNING_CIRCLE:
                 webView.loadUrl("file:///android_res/raw/preload_spinning_circle.html");
                 break;
-            case 5:
+            case SPINNING_LINE:
                 webView.loadUrl("file:///android_res/raw/preload_spinning_line.html");
                 break;
-            case 6:
+            case SPINNING_SQUARE:
                 webView.loadUrl("file:///android_res/raw/preload_spinning_square.html");
                 break;
             default:

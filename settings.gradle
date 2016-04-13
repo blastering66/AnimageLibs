@@ -1,1 +1,1 @@
-include ':app', ':html-loader'
+include ':app', ':library'
