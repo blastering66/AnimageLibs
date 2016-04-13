@@ -25,13 +25,15 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
 }
 
+
+//./gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
 publish {
-    userOrg = 'commit451'
-    groupId = 'com.commit451'
-    artifactId = 'PhotoView'
-    version = '1.2.5'
-    description = 'Implementation of ImageView for Android that supports zooming, by various touch gestures.'
-    website = 'https://github.com/chrisbanes/PhotoView'
-    issueTracker = "https://github.com/chrisbanes/PhotoView/issues"
-    repository = "https://github.com/chrisbanes/PhotoView.git"
+    userOrg = 'blastering66'
+    groupId = 'id.blastering99.htmlloader'
+    artifactId = 'HtmlLoader'
+    version = '0.1.0'
+    description = 'Loader that extends From AlertDialog using Html file.'
+    website = 'https://github.com/blastering66/AnimageLibs'
+    issueTracker = "https://github.com/blastering66/AnimageLibs/issues"
+    repository = "https://github.com/blastering66/AnimageLibs.git"
 }
